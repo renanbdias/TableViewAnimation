@@ -22,6 +22,9 @@ class TableViewAnimationTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let A = 5, B = 10
+        
+        XCTAssertEqual(A + B, 15)
     }
 
     func testPerformanceExample() {

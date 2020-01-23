@@ -10,11 +10,15 @@
 		846C41AE23AC45D2009991DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41AD23AC45D2009991DC /* AppDelegate.swift */; };
 		846C41B023AC45D2009991DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41AF23AC45D2009991DC /* SceneDelegate.swift */; };
 		846C41B223AC45D2009991DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41B123AC45D2009991DC /* ViewController.swift */; };
-		846C41B523AC45D2009991DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C41B323AC45D2009991DC /* Main.storyboard */; };
 		846C41B723AC45D5009991DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C41B623AC45D5009991DC /* Assets.xcassets */; };
 		846C41BA23AC45D5009991DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C41B823AC45D5009991DC /* LaunchScreen.storyboard */; };
 		846C41C523AC45D6009991DC /* TableViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41C423AC45D6009991DC /* TableViewAnimationTests.swift */; };
 		846C41D023AC45D6009991DC /* TableViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41CF23AC45D6009991DC /* TableViewAnimationUITests.swift */; };
+		846C41DF23AC5639009991DC /* PrincessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41DD23AC5639009991DC /* PrincessTableViewCell.swift */; };
+		846C41E023AC5639009991DC /* PrincessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846C41DE23AC5639009991DC /* PrincessTableViewCell.xib */; };
+		846C41E223AC5799009991DC /* Princess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41E123AC5799009991DC /* Princess.swift */; };
+		846C41E423AC6B7C009991DC /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C41E323AC6B7C009991DC /* TableViewHeader.swift */; };
+		846C41E623AC6B85009991DC /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846C41E523AC6B85009991DC /* TableViewHeader.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		846C41AD23AC45D2009991DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846C41AF23AC45D2009991DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		846C41B123AC45D2009991DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		846C41B423AC45D2009991DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846C41B623AC45D5009991DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846C41B923AC45D5009991DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846C41BB23AC45D5009991DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		846C41CB23AC45D6009991DC /* TableViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C41CF23AC45D6009991DC /* TableViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAnimationUITests.swift; sourceTree = "<group>"; };
 		846C41D123AC45D6009991DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C41DD23AC5639009991DC /* PrincessTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincessTableViewCell.swift; sourceTree = "<group>"; };
+		846C41DE23AC5639009991DC /* PrincessTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrincessTableViewCell.xib; sourceTree = "<group>"; };
+		846C41E123AC5799009991DC /* Princess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Princess.swift; sourceTree = "<group>"; };
+		846C41E323AC6B7C009991DC /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		846C41E523AC6B85009991DC /* TableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				846C41AD23AC45D2009991DC /* AppDelegate.swift */,
 				846C41AF23AC45D2009991DC /* SceneDelegate.swift */,
+				846C41E123AC5799009991DC /* Princess.swift */,
 				846C41B123AC45D2009991DC /* ViewController.swift */,
-				846C41B323AC45D2009991DC /* Main.storyboard */,
+				846C41DD23AC5639009991DC /* PrincessTableViewCell.swift */,
+				846C41DE23AC5639009991DC /* PrincessTableViewCell.xib */,
+				846C41E323AC6B7C009991DC /* TableViewHeader.swift */,
+				846C41E523AC6B85009991DC /* TableViewHeader.xib */,
 				846C41B623AC45D5009991DC /* Assets.xcassets */,
 				846C41B823AC45D5009991DC /* LaunchScreen.storyboard */,
 				846C41BB23AC45D5009991DC /* Info.plist */,
@@ -232,9 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846C41E623AC6B85009991DC /* TableViewHeader.xib in Resources */,
 				846C41BA23AC45D5009991DC /* LaunchScreen.storyboard in Resources */,
+				846C41E023AC5639009991DC /* PrincessTableViewCell.xib in Resources */,
 				846C41B723AC45D5009991DC /* Assets.xcassets in Resources */,
-				846C41B523AC45D2009991DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846C41E423AC6B7C009991DC /* TableViewHeader.swift in Sources */,
+				846C41DF23AC5639009991DC /* PrincessTableViewCell.swift in Sources */,
 				846C41B223AC45D2009991DC /* ViewController.swift in Sources */,
+				846C41E223AC5799009991DC /* Princess.swift in Sources */,
 				846C41AE23AC45D2009991DC /* AppDelegate.swift in Sources */,
 				846C41B023AC45D2009991DC /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		846C41B323AC45D2009991DC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				846C41B423AC45D2009991DC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		846C41B823AC45D5009991DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
